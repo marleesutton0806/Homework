@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        color: #222;
+        background-color: #f4f4f4;
+    }
+
+    header {
+        padding: 24px 16px;
+        text-align: center;
+        color: white;
+        background-color: #183b5b;
+    }
+
+    main {
+        max-width: 1200px;
+        margin: auto;
+        padding: 16px;
+    }
+
+    section {
+        margin-bottom: 24px;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+        max-width: 640px;
+        height: auto;
+        margin: 16px auto;
+    }
+
+    footer {
+        padding: 16px;
+        text-align: center;
+        color: white;
+        background-color: #183b5b;
+    }
+    .threat-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+.threat-container article {
+    padding: 16px;
+    border: 2px solid #b8c7d9;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.threat-container h3 {
+    margin-top: 0;
+    color: #183b5b;
+}
+.low-contrast {
+    color: #b0b0b0;
+}
+@media (min-width: 768px) {
+    .threat-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    main {
+        padding: 24px;
+    }
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity and Online Saftey</title>
+</head>
+<body>
+
+    <header>
+        <h1>Cybersecurity and Online Saftey</h1>
+    </header>
+
+    <main>
+
+        <section id="Introduction">
+            <h2>What is Cybersecurity?</h2>
+            <p class="low-contrast">
+            
+                Cybersecurity is the root of technology saftey. It protects businesses and just every day people 
+                from hackers, scams,and so much more. Technology is used every single day by so much of the worlds
+                population, every one of those people at at risk of having 
+                personal information stolen right off of their devices that why 
+                cybersecurity is so important, It helps protect those people.
+            </p>
+
+        <img src="Hacker.jpg"
+     
+        </section>
+
+        <section id="Threats">
+            <h2>Common Cybersecurity Threats</h2>
+            <div class="threat-container">
+            <article>
+                <h4>Phishing</h4>
+                <p>
+                    Phishing is when a fake email, text or website link 
+                to scam someone. These messages can look very real, even though they are fake. 
+                </p>
+            </article>
+
+            <article>
+                <h3>Malware</h3>
+                <p>
+                   Malware is hamful software that can be downloaded on to a persons device 
+                   through false websites and opening 'infected' files. 
+                </p>
+            </article>
+            </div>
+        </section>
+
+        <section id="Protection">
+            <h2>Ways to Stay Safe Online </h2>
+
+            <ul>
+    <li>Use strong and different passwords</li>
+    <li>Turn on two-factor authentication</li>
+    <li>Keep programs and devices updated</li>
+    <li>Avoid suspicious links and attachments</li>
+    <li>Check that websites are legitimate</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Marlee Sutton | DEV 140 Assignment</p>
+    </footer>
+
+</body>
+</html>
